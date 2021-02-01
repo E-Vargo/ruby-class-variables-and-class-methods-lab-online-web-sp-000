@@ -9,7 +9,9 @@ def initialize(name, artist, genre)
   @name = name
   @genre = genre
   @artist = artist
+  
   @@count += 1
+  
   if @@artists == []
   @@artists << artist
   elsif @@artists.all?{|a| a != artist}
