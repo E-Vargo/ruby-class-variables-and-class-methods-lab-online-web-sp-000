@@ -7,8 +7,18 @@ class Song
 
 def initialize(name, artist, genre)
 @@count += 1
+if @@artists == []
 @@artists << artist
+elsif @@artists.all?{|a| a != artist}
+  @@artists << artist
+end
+
+if @@genres == []
 @@genres << genre
+elsif @@genres.all?{|a| a != genre}
+  @@genres << genre
+end
+
 end
 
 def self.count
