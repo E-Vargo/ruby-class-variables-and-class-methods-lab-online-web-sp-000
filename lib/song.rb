@@ -18,7 +18,6 @@ def initialize(name, artist, genre)
   elsif @@genres.all?{|a| a != genre}
     @@genres << genre
   end
-
 end
 
 def self.count
