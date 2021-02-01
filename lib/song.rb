@@ -20,6 +20,14 @@ def initialize(name, artist, genre)
   end
 end
 
+def name=(name)
+  @name = name
+end
+
+def name
+  @name
+end
+
 def self.count
   @@count
 end
