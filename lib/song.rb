@@ -6,6 +6,7 @@ def initialize(name, artist, song)
 @@count += 1
 @@artists << artist
 end
+
 def count
 
 end
