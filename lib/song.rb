@@ -11,18 +11,8 @@ def initialize(name, artist, genre)
   @artist = artist
 
   @@count += 1
-
-  if @@artists == []
+  @@genre << @genre
   @@artists << @artist
-elsif @@artists.all?{|a| a != @artist}
-    @@artists << @artist
-  end
-
-  if @@genres == []
-  @@genres << genre
-  elsif @@genres.all?{|a| a != genre}
-    @@genres << genre
-  end
 end
 
 
