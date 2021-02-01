@@ -35,7 +35,7 @@ def self.genre_count
   count = @@genres.count {|i| i == g}
           hash[g] = count
         end
-        hash[g] = count
+        hash[genre] = count
       end
 
 
