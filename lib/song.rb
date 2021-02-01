@@ -12,7 +12,7 @@ def initialize(name, artist, genre)
 end
 
 def self.count
-@@count
+  @@count
 end
 #unique artists array from existing songs
 def self.artists
