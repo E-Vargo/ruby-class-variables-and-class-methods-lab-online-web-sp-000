@@ -1,5 +1,5 @@
 class Song
-  attr_accessor :name, :artist, :genre
+
 #class variables
 @@count = 0
 @@artists = []
