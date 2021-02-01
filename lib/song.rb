@@ -21,7 +21,7 @@ def self.count
 end
 #unique artists array from existing songs
 def self.artists
-  @@artists
+  @@artists.uniq
 end
 #unique genres from existing songs
 def self.genres
