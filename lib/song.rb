@@ -7,7 +7,7 @@ attr_accessor :name, :artist, :genre
 
 def initialize(name, artist, genre)
   @name = name
-  @genre = genre 
+  @genre = genre
   @artist = artist
   @@count += 1
   if @@artists == []
