@@ -25,7 +25,7 @@ def self.artists
 end
 #unique genres from existing songs
 def self.genres
-  @@genres
+  @@genres.uniq
 end
 #returns hash of genres and num of songs with those genres
 def self.genre_count
