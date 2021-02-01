@@ -14,13 +14,15 @@ end
 def self.count
 @@count
 end
-
+#unique artists array from existing songs
 def self.artists
 end
-
+#unique genres from existing songs
+def self.genres
+end
 def self.genre_count
 end
-
+#
 def self.artist_count
 end
 
