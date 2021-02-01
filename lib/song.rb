@@ -33,6 +33,7 @@ def self.genre_count
 end
 #returns hash of artists and their num of songs
 def self.artist_count
+  
 end
 
 end
