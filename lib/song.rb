@@ -30,7 +30,16 @@ end
 #returns hash of genres and num of songs with those genres
 def self.genre_count
 
-end
+  hash = {}
+(@@genres.uniq).each do |g|
+  count = @@genres.count {|i| i == g}
+          hash[g] = count
+        end
+        hash[g] = count
+      end
+
+
+
 #returns hash of artists and their num of songs
 def self.artist_count
 
