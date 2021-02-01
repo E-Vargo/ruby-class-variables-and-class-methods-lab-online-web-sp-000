@@ -9,7 +9,7 @@ def initialize(name, artist, genre)
   @name = name
   @genre = genre
   @artist = artist
-
+#the tests wont allow me to ONLY shovel in unique artists and genres :(
   @@count += 1
   @@genres << @genre
   @@artists << @artist
